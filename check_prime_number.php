@@ -1,4 +1,5 @@
 <?php
+
 function isPrime($n)
 {
     if ($n == 1) {
@@ -13,3 +14,5 @@ function isPrime($n)
 
     return true;
 }
+
+echo(isPrime(5) ? "yes" : "no") . "\n";
